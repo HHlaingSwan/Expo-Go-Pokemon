@@ -8,7 +8,8 @@ export default function RootLayout() {
         name="details"
         options={{
           title: "Pokemon Details",
-          headerBackButtonDisplayMode: "generic",
+          headerBackButtonDisplayMode: "minimal",
+          sheetCornerRadius: 20,
         }}
       />
     </Stack>
